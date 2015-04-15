@@ -9,6 +9,7 @@ Script has been tested on:
 
 - Digital Ocean: Ubuntu 14.04 x64 (Trusty)
 - Online.net: Arch Linux
+- OVH: CentOS
 - Amazon Web Services EC2: Arch Linux
 - Amazon Web Services EC2: Ubuntu 14.04 x64 HVM (Trusty)
 
@@ -36,6 +37,13 @@ sudo sh setup.sh
 ```
 wget https://raw.github.com/philplckthun/setup-simple-ipsec-l2tp-vpn/master/setup_archlinux.sh
 sudo sh setup_archlinux.sh
+```
+
+## For CentOS
+
+```
+wget https://raw.github.com/philplckthun/setup-simple-ipsec-l2tp-vpn/master/setup_centos.sh
+sudo sh setup_centos.sh
 ```
 
 The script will lead you through the installation process.
